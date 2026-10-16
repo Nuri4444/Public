@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ApplicationResponse [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<ApplicationResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                     xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:ID>&xxe;</cbc:ID>
+  <cbc:IssueDate>2026-10-16</cbc:IssueDate>
+</ApplicationResponse>
